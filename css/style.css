@@ -33,4 +33,11 @@ body {
         .btn-brand:hover {
             background-color: #0891b2;
             border-color: #0891b2;
+
+        }
+        /* Classe para forçar o tamanho da imagem de perfil */
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
         }
