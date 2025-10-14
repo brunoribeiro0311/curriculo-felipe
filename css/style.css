@@ -5,10 +5,10 @@ body {
         .section-title {
             font-weight: 700;
             color: #0891B2; /* Tom de ciano escuro */
-            margin-bottom: 3 rem;
+            margin-bottom: 3rem;
             text-align: center;
             position: relative;
-            padding-bottom: 15 px;
+            padding-bottom: 15px;
         }
         .section-title::after {
             content: '';
@@ -18,8 +18,8 @@ body {
             height: 4 px;
             background: #0891B2; /* Mesma cor do título */
             bottom: 0;
-            left: calc (50 % - 40 px);
-            border-radius: 2 px;
+            left: calc (50% - 40px);
+            border-radius: 2px;
         }
         .navbar-brand {
             color: #0891B2 !important;
@@ -37,8 +37,9 @@ body {
         }
         /* Classe para forçar o tamanho da imagem de perfil */
         .profile-img {
-            width: 130 px !important;
-            height: 130 px !important;
+            width: 130px !important;
+            height: 130px !important;
             object-fit: cover;
         }
+
 
