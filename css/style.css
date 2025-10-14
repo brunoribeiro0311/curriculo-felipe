@@ -1,4 +1,4 @@
-body {
+        body {
             font-family: 'Inter', sans-serif;
             scroll-behavior: smooth;
         }
@@ -14,11 +14,11 @@ body {
             content: '';
             position: absolute;
             display: block;
-            width: 80 px;
-            height: 4 px;
+            width: 80px;
+            height: 4px;
             background: #0891B2; /* Mesma cor do título */
             bottom: 0;
-            left: calc (50% - 40px);
+            left: calc(50% - 40px);
             border-radius: 2px;
         }
         .navbar-brand {
@@ -33,13 +33,7 @@ body {
         .btn-brand:hover {
             background-color: #0891b2;
             border-color: #0891b2;
-
         }
-        /* Classe para forçar o tamanho da imagem de perfil */
         .profile-img {
-            width: 130px !important;
-            height: 130px !important;
             object-fit: cover;
         }
-
-
